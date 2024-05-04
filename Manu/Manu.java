@@ -26,11 +26,16 @@ public class Manu {
 
     public static void main(String[] args) {
 
-        int idade = 0;
+        int idade = 0, boco = 0;
         String nome = "Bobão", apelido = "Bocó", sexo = "INDEFINIDO", resposta;
         String[] gostos = new String[10];
         int[] especial = new int[10];
         Scanner ler = new Scanner (System.in);
+
+        especial[0] = 0 ;
+        especial[1] = 0 ;
+        especial[2] = 0 ;
+        especial[3] = 0 ;
 
 //Intro ============================================================================================================
 
@@ -57,14 +62,12 @@ public class Manu {
                 System.out.println("   ^_^        ");
                 System.out.println(" ( o.O )      ");
                 System.out.println(" >   <        ");
-                System.out.println("Voce nao sabe escrever?É analfabeto ou oque?");
-                resposta = ler.nextLine();
-                System.out.println("Entendi, bom...Eu tenho preconceito com " + resposta + ", entaao tchau :)");
+                System.out.println("Mas ue, te perguntei se era NOME ou APELIDO e voce me responde " + resposta);
+                System.out.println("Vou te chamar de " + nome + " porque voce é um " + apelido);
+                boco += 1;
             }
 
 //Sexo e idade =====================================================================================================
-        
-        especial[0] = 0 ;
 
         System.out.println("  ^_^");
         System.out.println("( o.o )");
@@ -381,6 +384,7 @@ public class Manu {
                         System.out.println("Ah... tudo bem, eu sou meio curiosa :)");
                     } else {
                         System.out.println("Mds... a veia é caduca");
+                        boco += 1;
                     }
                 
                 } else if (resposta.equalsIgnoreCase("senhor")) {
@@ -410,6 +414,7 @@ public class Manu {
                         System.out.println("   ^_^        ");
                         System.out.println(" ( -.- )      ");
                         System.out.println(" >   ^        ");
+                        boco += 1;
                     }
                 
                 } else if (resposta.equalsIgnoreCase("macho")) {
@@ -453,6 +458,7 @@ public class Manu {
                         System.out.println(">   ^ ");
                     } else {
                         System.out.println("Mds... o maluco é maluco");
+                        boco += 1;
                     }
                 
                 } else {
@@ -465,7 +471,7 @@ public class Manu {
                         System.out.println(" ( o.O )      ");
                         System.out.println(" >   <        ");
                         System.out.println("Julgamentos silenciosos****");
-                        especial[0] = 1; // Corrigindo para uma string
+                        especial[0] = 1;
                     } else if (resposta.equals("nao")) {
                         System.out.println("Ah... então é só um mongol");
                         System.out.println("   ^_^        ");
@@ -476,6 +482,7 @@ public class Manu {
                         System.out.println(" ( o_0 )      ");
                         System.out.println(" >   <        ");   
                         System.out.println("Mds... o bicho é caduco");
+                        boco += 1;
                     }
                 }
 
@@ -497,6 +504,7 @@ public class Manu {
                         System.out.println(resposta + "...é um atoa mesmo...");
                     } else {
                         System.out.println("Mds... Mas é um corno mesmo...");
+                        boco += 1;
                     }
             }else{
                 System.out.println("  ^_^         ");
@@ -513,6 +521,182 @@ public class Manu {
         System.out.println("Entao... " + nome + ", vulgo " + apelido + "\nVoce gosta de qual tipo de culinaria?");
         gostos[0] = ler.nextLine();
 
+            if (gostos[0].equals("asiática") || gostos[0].equals("asiatica")){
+                System.out.println("Hmmmmmmmmmmmm...nham nham, gosto de comida asiática em geral\nDesde que não tenha pimenta :)\nE voce?Gosta de pimenta?");
+                resposta = ler.nextLine();
+                resposta = formatarResposta(resposta);
+
+                    if (resposta.equals("sim")){
+                        especial[1] = 1;
+                        System.out.println("E sua boca nao estoura?");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( @.@ )      ");
+                        System.out.println(" >   <        ");
+                        resposta = ler.nextLine();
+                        System.out.println("Hmmmmm...a minha sim");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( ;.; )      ");
+                        System.out.println(" >   ^        ");
+                    }else if (resposta.equals("nao")){
+                        especial[1] = 2;
+                        System.out.println("Entao somos dois");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( ^.^ )      ");
+                        System.out.println(" >   <        ");
+                        System.out.println("Mas é porque voce tem gastrite?");
+                        resposta = ler.nextLine();
+                        resposta = formatarResposta(resposta);
+
+                        if (resposta.equals("sim")){
+                            System.out.println("Eu tbm");
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( ;.; )      ");
+                            System.out.println("    ><        ");
+                            especial[2] = 1;
+                        }else if (resposta.equals("nao")){
+                            especial[2] = 0;
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( @.@ )      ");
+                            System.out.println(" >   <        ");
+                            System.out.println("Eu sim...");
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( ;.; )      ");
+                            System.out.println(" >   ^        ");
+                        }else{
+                            System.out.println("Tindi naum, mas blz");
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( o.o )      ");
+                            System.out.println(" >   <        ");
+                            boco += 1;
+                        }
+
+                    }else{
+                        System.out.println("...é...ta");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( -.- )      ");
+                        System.out.println(" >   ^        ");
+                        boco += 1;
+                    }
+
+            }else if (gostos[0].equals("italiana")){
+                System.out.println("Hmmm...é uma das minhas preferidas ^.^\nMas entao...voce corta o macarrao ou até mesmo quebra a massa crua na hora de cozinhar?");
+                resposta = ler.nextLine();
+                resposta = formatarResposta(resposta);
+
+                    if (resposta.equals("sim")){
+                        System.out.println("E rapaz...ao mario vindo puto ali");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( o.o )      ");
+                        System.out.println(" >   <        ");
+                    }else if (resposta.equals("nao")){
+                        System.out.println("O Mario ja estava ali afiando o facao oia");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( @.@ )      ");
+                        System.out.println(" >   <        ");
+                    }else{
+                        System.out.println("Vou considerar como um sim, vou ali chamar o mario");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( ^.~ )      ");
+                        System.out.println(" >   <        ");  
+                        boco += 1;   
+                        System.out.println("E falando nele, voce conhece o Mario?"); 
+                        resposta = ler.nextLine();
+                        resposta = formatarResposta(resposta); 
+                            
+                        if (resposta.equals("sim")){
+                            System.out.println("Hmmmmmmmmmm...hehehehehheheh");
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( >.< )      ");
+                            System.out.println(" >   ^        ");
+                        }else if (resposta.equals("nao")){
+                            System.out.println("hehehehehehe, aquela la que....");
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( >.< )      ");
+                            System.out.println("   ^ ^        ");
+                        }else{
+                            System.out.println("Hmmmmmmmmmm...suspeito");
+                            System.out.println("   ^_^        ");
+                            System.out.println(" ( -.- )      ");
+                            System.out.println(" >   ^        ");
+                        }
+                    }    
+
+            }else if (gostos[0].equals("indiana")){
+                System.out.println("Eu tbm...mas nem tanto\nTem umas coisas gostosas\nPrincipalmente os doces");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( *.*)       ");
+                System.out.println(" >   <        ");
+                System.out.println("Mas voce tem coragem de comer a comida de rua deles?");
+                resposta = ler.nextLine();
+                resposta = formatarResposta(resposta);
+
+                    if (resposta.equals("sim")){
+                        especial[3] = 1;
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( @.@ )      ");
+                        System.out.println(" >   <        ");
+                    }else if (resposta.equals("nao")){
+                        especial[3] = 2;
+                        System.out.println("Eu tbm nao");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( >.< )      ");
+                        System.out.println(" >   ^        ");
+                    }else{
+                        System.out.println("É...tao ta");  
+                        boco += 1;                     
+                    } 
+            }else if (gostos[0].equals("francesa")){
+                System.out.println("Eu tbm...agora voce me deixou com vontade de comer um Petit gateau\nMas to sem dinheiros");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( ;.;)       ");
+                System.out.println(" >   <        ");
+                System.out.println("Me empresta um dinheirinho?");
+                resposta = ler.nextLine();
+                resposta = formatarResposta(resposta);
+
+                    if (resposta.equals("sim")){
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( ^.^ )      ");
+                        System.out.println("   ><         ");
+                        System.out.println("Entao vamos depois daqui comprar pra gente");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( *.*)       ");
+                        System.out.println(" >   <        ");
+                    }else if (resposta.equals("nao")){
+                        System.out.println("Pao duro");
+                        System.out.println("   ^_^        ");
+                        System.out.println(" ( ;.; )      ");
+                        System.out.println("    ^^        ");
+                    }else{
+                        System.out.println("vou considerar que sim, nao tira o olho de sua carteira pra ver, oh");  
+                        boco += 1;                     
+                    }     
+            }else if (gostos[0].equals("inglesa")){
+                System.out.println("A Inglesa nem existe");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( o.o )      ");
+                System.out.println(" >   <        ");
+            }else if (gostos[0].equals("alemã") || gostos[0].equals("alema")){
+                System.out.println("Gosto so de algumas coisas nela");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( ^.^ )      ");
+                System.out.println("  >   <       ");
+            }else if (gostos[0].equals("russa")){
+                System.out.println("Gosto tbm *-*\nTbm se enquadra na asiática mas...ksksks");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( ^.^ )      ");
+                System.out.println("  >   <       ");
+            }else if (gostos[0].equals("brasil") || gostos[0].equals("brasileira")){
+                System.out.println("Hmmmmmmm...um anguzin suado, um flaaaaaanguin, uma carne de panela");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( *.* )      ");
+                System.out.println("  >   <       ");
+            }else{
+                System.out.println("Hmmmm...depois irei pesquisar sobre");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( ^.^ )      ");
+                System.out.println("  >   <       ");
+            }
         System.out.println("E qual seu prato preferido?");
         gostos[1] = ler.nextLine();
             
@@ -522,6 +706,7 @@ public class Manu {
                 resposta = formatarResposta(resposta);
 
                     if (resposta.equals("sim")){
+                        especial[2] = 1;
                         System.out.println("E de onde voce o conhece?");
                         System.out.println("   ^_^        ");
                         System.out.println(" ( @.@ )      ");
@@ -529,6 +714,7 @@ public class Manu {
                         resposta = ler.nextLine();
                         System.out.println("Hmmmmm...to de olho hum");
                     }else if (resposta.equals("nao")){
+                        especial[2] = 2;
                         System.out.println("Bom mesmo... hum");
                         System.out.println("   ^_^        ");
                         System.out.println(" ( ^.^ )      ");
@@ -538,6 +724,7 @@ public class Manu {
                         System.out.println("   ^_^        ");
                         System.out.println(" ( o.o )      ");
                         System.out.println(" >   <        ");
+                        boco += 1;
                     }
 
             }else if (gostos[1].equals("hamburguer")){
@@ -546,6 +733,7 @@ public class Manu {
                 resposta = formatarResposta(resposta);
 
                     if (resposta.equals("sim")){
+                        especial[2] = 1;
                         System.out.println("E de onde voce o conhece?");
                         System.out.println("   ^_^        ");
                         System.out.println(" ( @.@ )      ");
@@ -553,6 +741,7 @@ public class Manu {
                         resposta = ler.nextLine();
                         System.out.println("Hmmmmm...Sei...to de olho hum");
                     }else if (resposta.equals("nao")){
+                        especial[2] = 2;
                         System.out.println("Bom mesmo... hum");
                         System.out.println("   ^_^        ");
                         System.out.println(" ( >.< )      ");
@@ -561,7 +750,8 @@ public class Manu {
                         System.out.println("Vou considerar como um naum\nMas to de olho em voce!");
                         System.out.println("   ^_^        ");
                         System.out.println(" ( ^.~ )      ");
-                        System.out.println(" >   <        ");                        
+                        System.out.println(" >   <        ");    
+                        boco += 1;                    
                     }    
 
             }else if (gostos[1].equals("guioza")){
@@ -585,7 +775,8 @@ public class Manu {
                         System.out.println(" ( >.< )      ");
                         System.out.println(" >   ^        ");
                     }else{
-                        System.out.println("É....Vou considerar como um nao .-.");                       
+                        System.out.println("É....Vou considerar como um nao .-."); 
+                        boco += 1;                      
                     } 
             }    
 
@@ -601,9 +792,8 @@ public class Manu {
                 System.out.println("E qual o prato seu preferido da culinaria " + gostos[0] + "?");
                 gostos[1] = ler.nextLine();
             }else{
-                System.out.println("Voce nao sabe ler ou escrever?Te perguntei se ele é da sua culinaria preferida e voce me responde isso?");
-                resposta = ler.nextLine();
-                System.out.println("Entendi, bom...Eu tenho preconceito com " + resposta + ", entaao tchau :)");
+                System.out.println("...é..blz entao né");
+                boco += 1;
             }
 
 //País ============================================================================================================        
@@ -626,6 +816,7 @@ public class Manu {
                         System.out.println("SEI...vou fingir que acredito, voce tem cara de esgabilado");   
                     }else{
                         System.out.println("Houdooor");
+                        boco += 1;
                     }    
 
             }else if (resposta.equals("nao")){
@@ -633,9 +824,11 @@ public class Manu {
                 System.out.println("E qual o seu preferido da culinaria " + gostos[0] + "?");
                 gostos[1] = ler.nextLine();
             }else{
-                System.out.println("Voce nao sabe ler ou escrever?Te perguntei se ele é da sua culinaria preferida e voce me responde isso?");
-                resposta = ler.nextLine();
-                System.out.println("Entendi, bom...Eu tenho preconceito com " + resposta + ", entaao tchau :)");
+                System.out.println("Certas coisas, é melhor responder diretamente sim ou nao, porque se nao te julgo como um bocozao");
+                System.out.println("   ^_^        ");
+                System.out.println(" ( ^.^ )      ");
+                System.out.println(" >   <        ");
+                boco += 1;
             }
     }
 }

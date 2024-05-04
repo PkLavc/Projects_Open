@@ -43,3 +43,12 @@ System.out.println("  ^_^         ");
 System.out.println(" ( o_0 )      ");
 System.out.println(" >   <        ");
  
+
+System.out.println("   ^_^        ");
+System.out.println(" ( ;.; )      ");
+System.out.println(" >   ^        ");
+
+
+System.out.println("   ^_^        ");
+System.out.println(" ( ;.; )      ");
+System.out.println("    ><        ");
