@@ -53,4 +53,13 @@ git push -u origin main
 
 Isso enviará todos os seus arquivos para o repositório GitHub especificado.
 
+## Atualizar o Repositório Remoto
+
+Se você fez alterações nos arquivos locais e deseja atualizar o repositório remoto com essas alterações, siga estas etapas:
+
+1. Adicione e confirme suas alterações locais usando os comandos `git add` e `git commit`.
+2. Envie suas alterações para o repositório remoto usando o comando `git push`.
+
+Com estas etapas, você estará sempre mantendo seu repositório remoto atualizado com as últimas alterações feitas em seu repositório local.
+
 Lembre-se de que você precisa ter uma conta no GitHub e ter permissão para enviar arquivos para o repositório em questão. Certifique-se também de ter o Git instalado em seu computador.
