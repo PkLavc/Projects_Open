@@ -40,7 +40,7 @@ git commit -m "Primeiro commit"
 Você precisa adicionar o URL do seu repositório GitHub como um repositório remoto. Use o seguinte comando (substituindo `seu_usuario` e `Projects_Open` pelo seu nome de usuário e nome do repositório, respectivamente):
 
 ```bash
-git remote add origin https://github.com/seu_usuario/Projects_Open.git
+git remote add origin https://github.com/seu_usuario/nome_repositorio.git
 ```
 
 ## 6. Envie os Arquivos para o GitHub
