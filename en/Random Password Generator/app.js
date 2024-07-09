@@ -1,72 +1,72 @@
-const pwEl = document.getElementById("senha");
-const copyEl = document.getElementById("copiar");
-const lenEl = document.getElementById("tamanho");
-const upperEl = document.getElementById("maiuscula");
-const lowerEl = document.getElementById("minuscula");
-const numberEl = document.getElementById("numero");
-const symbolEl = document.getElementById("simbolo");
-const generateEl = document.getElementById("gerar");
+const pwEl = document.getElementById("password");
+const copyEl = document.getElementById("copy");
+const lenEl = document.getElementById("length");
+const upperEl = document.getElementById("uppercase");
+const lowerEl = document.getElementById("lowercase");
+const numberEl = document.getElementById("number");
+const symbolEl = document.getElementById("symbol");
+const generateEl = document.getElementById("generate");
 
-const letrasMaiusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const letrasMinusculas = "abcdefghijklmnopqrstuvwxyz";
-const numeros = "0123456789";
-const simbolos = "!@#$%^&*()_+=[]";
+const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
+const numbers = "0123456789";
+const symbols = "!@#$%^&*()_+=[]";
 
-function obterMinuscula() {
-  return letrasMinusculas[Math.floor(Math.random() * letrasMinusculas.length)];
+function getLowercase() {
+  return lowercaseLetters[Math.floor(Math.random() * lowercaseLetters.length)];
 }
 
-function obterMaiuscula() {
-  return letrasMaiusculas[Math.floor(Math.random() * letrasMaiusculas.length)];
+function getUppercase() {
+  return uppercaseLetters[Math.floor(Math.random() * uppercaseLetters.length)];
 }
 
-function obterNumero() {
-  return numeros[Math.floor(Math.random() * numeros.length)];
+function getNumber() {
+  return numbers[Math.floor(Math.random() * numbers.length)];
 }
 
-function obterSimbolo() {
-  return simbolos[Math.floor(Math.random() * simbolos.length)];
+function getSymbol() {
+  return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
-function gerarSenha() {
-  const tamanho = lenEl.value;
-  let senha = "";
+function generatePassword() {
+  const length = lenEl.value;
+  let password = "";
 
-  for (let i = 0; i < tamanho; i++) {
-    const caractere = gerarCaractere();
-    senha += caractere;
+  for (let i = 0; i < length; i++) {
+    const character = generateCharacter();
+    password += character;
   }
 
-  pwEl.innerText = senha;
+  pwEl.innerText = password;
 }
 
-function gerarCaractere() {
-  const caracteres = [];
-  upperEl.checked && caracteres.push(obterMaiuscula());
-  lowerEl.checked && caracteres.push(obterMinuscula());
-  numberEl.checked && caracteres.push(obterNumero());
-  symbolEl.checked && caracteres.push(obterSimbolo());
+function generateCharacter() {
+  const characters = [];
+  upperEl.checked && characters.push(getUppercase());
+  lowerEl.checked && characters.push(getLowercase());
+  numberEl.checked && characters.push(getNumber());
+  symbolEl.checked && characters.push(getSymbol());
 
-  if (caracteres.length === 0) 
+  if (characters.length === 0) 
     return "";
 
-  return caracteres[Math.floor(Math.random() * caracteres.length)];
+  return characters[Math.floor(Math.random() * characters.length)];
 }
 
-generateEl.addEventListener("click", gerarSenha);
+generateEl.addEventListener("click", generatePassword);
 
 copyEl.addEventListener("click", () => {
   const textarea = document.createElement("textarea");
-  const senha = pwEl.innerText;
+  const password = pwEl.innerText;
 
-  if (!senha) {
+  if (!password) {
       return;
   }
 
-  textarea.value = senha;
+  textarea.value = password;
   document.body.appendChild(textarea);
   textarea.select();
   document.execCommand("copy");
   textarea.remove();
-  alert("Sua senha gerada foi copiada para a área de transferência");
+  alert("Your generated password has been copied to clipboard");
 });
