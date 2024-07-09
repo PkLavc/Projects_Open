@@ -1,4 +1,0 @@
-chmod +x Manu_Linux.sh
-
-
-./Manu_Linux.sh
