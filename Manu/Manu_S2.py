@@ -1,6 +1,4 @@
 # f(x) = x^(2/3) + (e/3) * (π - x^2)^(1/2) * sin(a * π * x)
-    # pip install qrcode[pil]
-    # pip install numpy matplotlib
 
 import numpy as np
 import matplotlib.pyplot as plt
