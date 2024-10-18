@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Password Generator</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Random Password Generator</h1>
+  <div class="container">
+    <div class="header">
+      <div class="password">
+        <span id="password">Your password will appear here.</span>
+        <button id="copy">Copy</button>
+      </div>
+    </div>
+    <div class="password__body">
+      <div class="form-control">
+        <label class="label" for="length">Password Length</label>
+        <input id="length" value="15" type="number" min="2" max="25" />
+      </div>
+      <div class="form-control">
+          <label class="label" for="uppercase">Include Uppercase Letters</label>
+          <input id="uppercase" type="checkbox" />
+      </div>
+      <div class="form-control">
+          <label class="label" for="lowercase">Include Lowercase Letters</label>
+          <input id="lowercase" type="checkbox" />
+      </div>
+      <div class="form-control">
+          <label class="label" for="number">Include Numbers</label>
+          <input id="number" type="checkbox" />
+      </div>
+      <div class="form-control">
+          <label class="label" for="symbol">Include Symbols</label>
+          <input id="symbol" type="checkbox" />
+      </div>
+      <button class="generate" id="generate">
+        Generate my Password
+      </button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

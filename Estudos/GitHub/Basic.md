@@ -108,3 +108,22 @@ git push --force origin main
 
 No entanto, tenha cuidado ao usar git push --force, pois isso pode causar a perda de commits no repositório remoto. Certifique-se de que é seguro sobrescrever o histórico de commits do repositório remoto antes de usar esse comando.
 
+## Erro - Erro comum
+
+Após executar git pull para trazer as alterações mais recentes do repositório remoto para o seu repositório local e resolver quaisquer conflitos que possam surgir, você pode seguir os seguintes passos:
+
+Resolva quaisquer conflitos que surjam durante o processo de mesclagem. Abra os arquivos afetados, resolva os conflitos manualmente e salve as alterações.
+Depois de resolver os conflitos, adicione os arquivos modificados ao índice usando o comando git add ..
+Faça um novo commit para consolidar as alterações mescladas. Você pode usar o comando git commit -m "mensagem do commit" para isso, incluindo uma mensagem descritiva sobre as alterações que foram mescladas.
+Finalmente, faça o push das alterações consolidadas para o repositório remoto usando o comando git push.
+A sequência completa de comandos seria algo assim:
+
+```bash
+git pull
+# Resolva os conflitos, se houver, editando os arquivos afetados
+git add .
+git commit -m "Mensagem descritiva sobre as alterações mescladas"
+git push
+```
+
+Após esses passos, suas alterações locais serão mescladas com sucesso com as alterações do repositório remoto e atualizadas no GitHub.
