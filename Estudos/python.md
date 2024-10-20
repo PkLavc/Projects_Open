@@ -43,6 +43,10 @@
         Potencia
             print(2 ** 2 )      
                 4         
+    %
+        Resto divisao (Verificar se e par ou impar por ex) 
+            print( 52 % 2)
+                0            
 # Class
     type() 
         Entre as () usar oque verificar em relacao ao tipo. Ex: 
