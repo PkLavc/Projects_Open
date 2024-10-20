@@ -1,6 +1,6 @@
 import math
 
-def calcular bhaskara(a, b, c):
+def calcular_bhaskara(a, b, c):
     delta = b**2 - 4 * a * c
 
     if delta < 0:
