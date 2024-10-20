@@ -37,9 +37,12 @@
                 True
     //
         Divisao inteiros
-            divisao = 10 / 3
-            print(divisao) 
-                3.0           
+            print(10 // 3) 
+                3.0       
+    **
+        Potencia
+            print(2 ** 2 )      
+                4         
 # Class
     type() 
         Entre as () usar oque verificar em relacao ao tipo. Ex: 

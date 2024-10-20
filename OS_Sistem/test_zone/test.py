@@ -4,4 +4,3 @@
 # print(conteudo)
 # # arquivo.close()
 
-
