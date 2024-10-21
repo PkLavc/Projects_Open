@@ -46,7 +46,55 @@
     %
         Resto divisao (Verificar se e par ou impar por ex) 
             print( 52 % 2)
-                0            
+                0        
+    ...
+        Ellipsis
+            ... # Ele sozinho nao gera nada   
+    pass
+        Praticamente a mesma coisa q "...", porem restrito a blocos de codigos     
+
+# Formatacao                
+    :.2f
+        Formatar float para casas decimais
+            altura = 1.80
+            linha_1 = f'{altura:.2f} de altura,'    
+                1.80 de altura,
+    f   
+        f-strings = formatacao
+            linha_1 = f'{nome} tem'    
+                PK Araujo tem 
+    {}
+        Usar variavel dentro de variavel. EX:
+            nome = 'PK Araujo'
+            altura = 1.80
+            linha_1 = f'{nome} tem'    
+                PK Araujo tem     
+    .format
+        formatar
+            a = 'A'
+            b = 'D'
+            C = 56.595
+            string = 'a={} b={1} c{:.2f} {}'
+            formato = string.format(a, b, c, 123)
+            print(formato)
+                a=A b=D c56.59 123  
+
+            nome = "Luiz"
+            idade = 23
+            formato = '{1} tem {0} anos'
+            print(formato.format(nome, idade))
+                23 tem Luiz anos
+
+# Parametro
+        Nome variante. Ex: 
+            a = 'A'
+            b = 'D'
+            C = 56.595
+            string = 'a={} b={1} c{nome3:.2f}'  # nome3 
+            formato = string.format(
+                a, b, nome3=c,                  # nome3, precisa nomear todos para frente*
+                )                            
+
 # Class
     type() 
         Entre as () usar oque verificar em relacao ao tipo. Ex: 
