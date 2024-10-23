@@ -5,7 +5,46 @@
         ctrl c
             Copia as linhas por completo
         ctrl v
-            ^^^ Cola as linhas copiadas por completo        
+            ^^^ Cola as linhas copiadas por completo   
+
+# Interpolação
+    s - string
+    d e i - int
+    f - float
+    x e X - Hexadecimal (ABCDEF0123456789)
+        nome = 'Luiz'
+        preco = 1235,659898985
+        variavel = '%s, o preço é R$%.2f' % (nome, preco)
+        print(variavel)
+            Luiz, o preço é R$1235,66
+
+        print('O hexadecimal de %d é %04x' % (15, 15))
+            O hexadecimal de 15 é 000f     
+
+# f - strings
+    s - string
+    d - int
+    f - float
+    .<número de dígitos>f
+        print(f'{1523,23656545:,.1f}')
+            1,523,2
+    x ou X - Hexadecimal
+    (Caractere)(><>)^(quantidade)
+    > - Esquerda
+        variavel = 'ABC'
+        print(f'{variavel: >10}')
+                   ABC  #7 espaços
+    < - Direita
+        variavel = 'ABC'
+        print(f'{variavel: <10}.')
+            ABC       .  #7 espaços
+    ^ - Centro
+        variavel = 'ABC'
+        print(f'{variavel:$^10}.')
+            $$$ABC$$$$.  #7 $
+    Sinal - + ou -
+        Ex.: 0>-100,.1f
+    Conversion flags - !r !s !a
 
 # Comandos 
     \ 
@@ -51,7 +90,23 @@
         Ellipsis
             ... # Ele sozinho nao gera nada   
     pass
-        Praticamente a mesma coisa q "...", porem restrito a blocos de codigos     
+        Praticamente a mesma coisa q "...", porem restrito a blocos de codigos    
+    in
+        Verificar se esta na string por exemplo o valor. Ex:
+        nome = 'Jenifer' 
+        print('fer' in nome)
+            True
+
+        exemplo1 = 'John'
+        exemplo2 = 'Jo'
+        if exemplo1 in exemplo2:
+        print(True) 
+            True   
+    not in
+        Inverso de in ^^
+        nome = 'Jenifer' 
+        print('Mane' not in nome)
+            True            
 
 # Formatacao                
     :.2f
@@ -84,7 +139,7 @@
             formato = '{1} tem {0} anos'
             print(formato.format(nome, idade))
                 23 tem Luiz anos
-
+ 
 # Parametro
         Nome variante. Ex: 
             a = 'A'
