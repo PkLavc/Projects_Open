@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 
 # Adiciona o caminho do diretório onde está o arquivo figures.py
-sys.path.append(str(Path(__file__).resolve().parents[3] / 'resource'))
+sys.path.append(str(Path(__file__).resolve().parents[3] / 'resource')) #/ 'subpasta')) 
 
 """
 Z:\
