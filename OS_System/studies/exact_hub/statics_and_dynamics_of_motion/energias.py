@@ -1,14 +1,11 @@
 import sys
 import os
-
-# Adiciona o caminho do diretório onde está o arquivo bd.py
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
 from bd import *
 
-# ===================================== Lista 3 - Energia Cinetica ======================================
+# ===================================== Lista 3 - Energia Cinética ======================================
 
-print('\t\t\t\tLista de Exercícios - 3 (Energia Cinetica)')
+print('\t\t\t\tLista de Exercícios - 3 (Energia Cinética)')
 print('''
 Exercício 1
 
@@ -222,9 +219,9 @@ Respostas
 8) 166,6 J; 196 J; 29,4 J; 166,6 J; 129,4 J
 ''')
 
-# ================================ Lista 6 - Energia Potencial Elastica ===============================
+# ================================ Lista 6 - Energia Potencial Elástica ===============================
 
-print('\t\t\t\tLista de Exercícios - 5 (Energia Potencial Elastica)')
+print('\t\t\t\tLista de Exercícios - 5 (Energia Potencial Elástica)')
 print('''
 Exercício 1
 
