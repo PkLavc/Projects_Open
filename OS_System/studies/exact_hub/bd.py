@@ -19,8 +19,8 @@ forca = 'F=m⋅a'
 
 # energias
 energia_cinetica = 'E=½mv²'
-energia_potencial_elastica = 'E=½kx²' # x é a deformação da mola (em metros, m)
 energia_potencial_gravitacional = 'E=mgh'
+energia_potencial_elastica = 'E=½kx²' # x é a deformação da mola (em metros, m)
 
 #caracter
 meio = '¹⁄₂'
