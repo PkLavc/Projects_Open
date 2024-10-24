@@ -5,8 +5,13 @@ from bd import *
 
 # ===================================== Lista 3 - Energia Cinética ======================================
 
-print('\t\t\t\tLista de Exercícios - 3 (Energia Cinética)')
+print(f'''\t\t\t\tLista de Exercícios - 3 (Energia Cinética)
+Formula {energia_cinetica}
+m  = Distancia em Metros (m)
+v{ao_quadrado} = 
+''')
 print('''
+
 Exercício 1
 
 Um projétil de metralhadora de 25g não consegue atravessar as barricadas com saco de areia do inimigo.
@@ -103,10 +108,14 @@ Respostas
 7) B
 ''')
 
+input('Pressione ENTER para continuar')
 # =============================== Lista 4 - Energia Potencial Gravitacional ==============================
 
-print('\t\t\t\tLista de Exercícios - 4 (Energia Potencial Gravitacional)')
+print(f'''\t\t\t\tLista de Exercícios - 4 (Energia Potencial Gravitacional)
+Formula {energia_potencial_gravitacional}
+''')
 print(f'''
+
 Exercício 1
 
 Qual é o valor da massa de uma esfera que apresenta, em um dado instante, energia potencial
@@ -210,10 +219,14 @@ Respostas
 8) 166,6 J; 196 J; 29,4 J; 166,6 J; 129,4 J
 ''')
 
+input('Pressione ENTER para continuar')
 # ================================ Lista 6 - Energia Potencial Elástica ===============================
 
-print('\t\t\t\tLista de Exercícios - 5 (Energia Potencial Elástica)')
+print(f'''\t\t\t\tLista de Exercícios - 5 (Energia Potencial Elástica)'
+Formula {energia_potencial_elastica}
+''')
 print('''
+
 Exercício 1
 
 Um bloco de 250 g é deixado cair em uma mola vertical, inicialmente relaxada, cuja constante elástica 
