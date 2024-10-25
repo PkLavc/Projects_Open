@@ -2,6 +2,23 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from bd import *
+'''
+exact_hub
+    ├──statics_and_dynamics_of_motion
+    |   └──energias.py
+    └──bd.py                       
+'''
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'resource'))
+from botton import *
+'''
+OS_System\
+├── studies\
+│   └── exact_hub
+|       └──statics_and_dynamics_of_motion
+|           └──energias.py
+└── resource\
+    └── botton.py
+'''
 
 # ===================================== Lista 3 - Energia Cinética ======================================
 while True:
@@ -12,6 +29,8 @@ while True:
         m  =  Distancia em Metros (m)
         v{ao_quadrado} =  Velocidade ao quadrado
         ''')
+
+        input(continuar)
 
         print('''
 
@@ -33,6 +52,8 @@ while True:
         d) O que acontece com a Ec do carro se a direção da velocidade fosse alterada?
         ''') # exercicio 2
 
+        input(continuar)
+
         print('''
         Exercício 3
 
@@ -41,6 +62,8 @@ while True:
         Qual é a força que foi aplicada
         ao corpo?
         ''') # exercicio 3
+
+        input(continuar)
 
         print('''
         Exercício 4
@@ -54,6 +77,8 @@ while True:
         ao final do deslocamento de 2 m?
         ''') # exercicio 4
 
+        input(continuar)
+
         print(f'''
         Exercício 5
 
@@ -66,6 +91,8 @@ while True:
         c) o trabalho T realizado pela força sobre o trenó
         ''') # exercicio 5
 
+        input(continuar)
+
         print(f'''
         Exercício 6
 
@@ -77,6 +104,8 @@ while True:
         forças?
         b) A energia cinética do baú aumenta ou diminui?
         ''') # exercicio 6
+
+        input(continuar)
 
         print('''
         Exercício 7
@@ -98,6 +127,8 @@ while True:
         D) I, II e III.
         E) II, III e IV.
         ''') # exercicio 7
+
+        input(continuar)
 
         print('''
         Respostas
@@ -138,6 +169,8 @@ while True:
         aceleração da gravidade igual a 9,8 m/{ao_quadrado}
         ''') # exercicio 1
 
+        input(continuar)
+
         print(f'''
         Exercício 2
 
@@ -146,12 +179,16 @@ while True:
         energia potencial da bola ao atingir a vidraça? Considere o valor da gravidade local igual a 9,8 m/s{ao_quadrado}.
         ''') # exercicio 2
 
+        input(continuar)
+
         print('''
         Exercício 3
 
         Em 1975, a cobertura do velódromo de Montreal, com um peso de 360kN foi suspensa em 10cm para que
         pudesse ser centrada. Quanto trabalho foi realizado sobre esta cobertura pelas forças que a suspenderam?
         ''') # exercicio 3
+
+        input(continuar)
 
         print(f'''
         Exercício 4
@@ -161,6 +198,8 @@ while True:
         Se, sob pânico, ela efetivamente suspendeu 4000N (cerca de {um_quarto} do peso do veículo) por 5cm, 
         quanto trabalho a sua força realizou sobre o carro?
         ''') # exercicio 4
+
+        input(continuar)
 
         print('''
         Exercício 5
@@ -174,6 +213,8 @@ while True:
         d) 2km
         e) 60 m
         ''') # exercicio 5
+
+        input(continuar)
 
         print('''
         Exercício 6
@@ -191,6 +232,8 @@ while True:
             ii. Pela força gravitacional sobre a caixa?
         ''') # exercicio 6
 
+        input(continuar)
+
         print('''
         Exercício 7
 
@@ -206,6 +249,8 @@ while True:
             iv. Pela força resultante?
         ''') # exercicio 7
 
+        input(continuar)
+
         print('''
         Exercício 8
 
@@ -220,6 +265,8 @@ while True:
             i. o trabalho realizado sobre o livro pela força gravitacional até o livro cair nas mãos da sua amiga
             ii. A energia potencial gravitacional do livro nas mãos de sua amiga
         ''') # exercicio 8
+
+        input(continuar)
 
         print('''
         Respostas
@@ -264,12 +311,16 @@ while True:
         c) Com que força o bloco comprime a mola?
         ''') # exercicio 1
 
+        input(continuar)
+
         print('''
         Exercício 2
 
         Calcule a energia potencial elástica armazenada em uma mola, cuja constante elástica é 100 N/m, que 
         está comprimida, apresentando uma deformação de 45 cm.
         ''') # exercicio 2
+
+        input(continuar)
 
         print('''
         Exercício 3
@@ -283,6 +334,8 @@ while True:
         e) 2,0J
         ''') # exercicio 3
 
+        input(continuar)
+
         print('''
         Exercício 4
 
@@ -293,6 +346,8 @@ while True:
         a) Qual a força que o gatilho está exercendo no sistema?
         b) Qual a capacidade de trabalho do sistema? 
         ''') # exercicio 4
+
+        input(continuar)
 
         print('''
         Exercício 5
@@ -305,6 +360,8 @@ while True:
         a força do tubo realiza sobre o balão no saco até o tempo em que o tubo atinge o seu comprimento
         indeformado?
         ''') # exercicio 5
+
+        input(continuar)
 
         print('''
         Respostas

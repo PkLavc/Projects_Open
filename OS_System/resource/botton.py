@@ -1,0 +1,1 @@
+continuar = "Pressione 'Enter' para Continuar"
