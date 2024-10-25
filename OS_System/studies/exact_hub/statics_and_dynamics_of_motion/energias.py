@@ -38,6 +38,8 @@ while True:
         Qual o trabalho realizado pela bala ao penetrar as barricadas, considerando que os tiros ocorreram a 115m
         de distância e demoraram 0,4s até o impacto? (considere a trajetória a do projétil como MRU)
         ''') # exercicio 1
+        
+        input(continuar)
 
         print('''
         Exercício 2
