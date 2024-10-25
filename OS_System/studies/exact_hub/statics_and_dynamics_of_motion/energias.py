@@ -4,8 +4,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from bd import *
 
 # ===================================== Lista 3 - Energia Cinética ======================================
-while true:
-    while true:
+while True:
+    while True:
 
         print(f'''\t\t\t\tLista de Exercícios - 3 (Energia Cinética)
         Formula {energia_cinetica}
@@ -113,14 +113,14 @@ while true:
 
         opcao = input("Pressione 'Enter' para próxima lista ou digite '0' para voltar ao início: ")
             
-            if opcao == "":
-                continue  # Recomeça o loop do início para a próxima lista
-            elif opcao == "0":
-                break  # Sai do loop e encerra o programa
-            else:
-                print("Opção inválida. Tente novamente.\n")
+        if opcao == "":
+            break  # Sai do loop e encerra o programa
+        elif opcao == "0":
+            continue  # Recomeça o loop do início
+        else:
+            print("Opção inválida. Tente novamente.\n")
 # =============================== Lista 4 - Energia Potencial Gravitacional ==============================
-    while true:
+    while True:
 
         print(f'''\t\t\t\tLista de Exercícios - 4 (Energia Potencial Gravitacional)
         Formula {energia_potencial_gravitacional}
@@ -234,18 +234,16 @@ while true:
         8) 166,6 J; 196 J; 29,4 J; 166,6 J; 129,4 J
         ''')
 
-        input('Pressione ENTER para continuar')
-
         opcao = input("Pressione 'Enter' para proxima lista ou digite '0' para voltar ao início: ")
         
-            if opcao == "":
-                break  # Sai do loop e encerra o programa
-            elif opcao == "0":
-                continue  # Recomeça o loop do início
-            else:
-                print("Opção inválida. Tente novamente.\n")
+        if opcao == "":
+            break  # Sai do loop e encerra o programa
+        elif opcao == "0":
+            continue  # Recomeça o loop do início
+        else:
+            print("Opção inválida. Tente novamente.\n")
 # ================================ Lista 6 - Energia Potencial Elástica ===============================
-    while true:
+    # while True:
 
         print(f'''\t\t\t\tLista de Exercícios - 5 (Energia Potencial Elástica)'
         Formula {energia_potencial_elastica}
@@ -320,7 +318,7 @@ while true:
     
     opcao = input("Pressione 'Enter' para voltar ao início ou digite qualquer coisa para sair: ")
         
-            if opcao == "":
-                continue  # Sai do loop e encerra o programa
-            else:
-                print("Opção inválida. Tente novamente.\n")
+    if opcao == "":
+        continue  # Sai do loop e encerra o programa
+    else:
+        print("Opção inválida. Tente novamente.\n")
