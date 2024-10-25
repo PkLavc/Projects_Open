@@ -26,11 +26,9 @@ while True:
 
         print(f'''\t\t\t\tLista de Exercícios - 3 (Energia Cinética)
         Formula {energia_cinetica}
-        m  =  Distancia em Metros (m)
+        m  =  Massa do objeto (kg)
         v{ao_quadrado} =  Velocidade ao quadrado
         ''')
-
-        input(continuar)
 
         print('''
 
@@ -155,7 +153,7 @@ while True:
 
         print(f'''\t\t\t\tLista de Exercícios - 4 (Energia Potencial Gravitacional)
         Formula {energia_potencial_gravitacional}
-        m  =  Distancia em Metros (m)
+        m  =  Massa do objeto (kg)
         g  =  Aceleração da gravidade (10 ou 9,81 m/s{ao_quadrado})
         h  =  Altura em relação ao ponto de referência (em metros, m)
         ''')
