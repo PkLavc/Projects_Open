@@ -9,3 +9,5 @@ from figures import *
 
 # Agora você pode usar as funções ou variáveis do figures.py diretamente
 # print(placa_coelho)  # Exemplo de uso de uma função ou variável importada
+
+print(placa_coelho)

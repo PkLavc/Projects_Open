@@ -53,67 +53,67 @@ nha = "( ⑉ ´ ꇴ ` ⑉ )"
 
 legend = '『LEGEND』'
 
-cat_1 = """
+cat_zuiudo = """
    ^_^        
  ( o.o )      
   >   <        
 """
 
-cat_2 = """
+cat_quibsurdu = """
    ^_^      
  ( @.@ )      
   >   <        
 """
 
-cat_3 = """
+cat_nha = """
    ^_^        
  ( -.- )      
  >   ^        
 """
 
-cat_4 = """
+cat_catapimbas = """
    ^_^        
  ( *.*)       
  >   <        
 """
 
-cat_5 = """
+cat_hehehehe = """
    ^_^        
  ( ^.^ )      
  >   <        
 """
 
-cat_6 = """
+cat_gostunaum = """
    ^_^        
  ( >.< )      
  >   ^        
 """
 
-cat_7 = """
+cat_corror = """
    ^_^        
  ( o.O )      
  >   <        
 """
 
-cat_8 = """
+cat_hehesapecagens = """
    ^_^        
  ( ^.~ )      
  >   <        
 """
 
-cat_9 = """
+cat_podenaum = """
    ^_^         
  ( o_0 )      
  >   <        
  """
 
-cat_10 = """
+cat_maguo = """
    ^_^        
  ( ;.; )      
  >   ^        
 """
 
-cat_11 = """
+cat_machucou = """
    ^_^        
  ( ;.; )      
     ><    
