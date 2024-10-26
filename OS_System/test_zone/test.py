@@ -5,3 +5,7 @@
 # decimal = int(input('Insira o decima: '))
 # print(f'O decimal de {decimal} é {decimal:08x}')
 
+
+print('Fazendo um teste aleatoriamente de barras\n\
+sera q essa cosia funcionou?')
+
