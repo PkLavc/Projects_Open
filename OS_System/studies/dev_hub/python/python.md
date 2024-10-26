@@ -6,6 +6,22 @@
             Copia as linhas por completo
         ctrl v
             ^^^ Cola as linhas copiadas por completo   
+# Conversion flags
+    !r
+        Substitui: __repr__ #Para ver a representação do objeto (útil para depuração).
+            texto = "Olá, Mundo!"
+            print(f'A representação oficial é: {texto!r}')  
+                A representação oficial é: 'Olá, Mundo!'
+    !s
+        Substitui: __str__ #Para ver a string "normal".
+            texto = "Olá, Mundo!"
+            print(f'A representação amigável é: {texto!s}') 
+                A representação amigável é: Olá, Mundo!
+    !a     
+        Substitui: ascii() #Para ver a representação ASCII, útil quando se trabalha com caracteres especiais.
+            nome = "Pythön"
+            print(f'A representação ASCII é: {nome!a}')  
+                A representação ASCII é: 'Pythön'     
 
 # Interpolação
     s - string
@@ -19,7 +35,11 @@
             Luiz, o preço é R$1235,66
 
         print('O hexadecimal de %d é %04x' % (15, 15))
-            O hexadecimal de 15 é 000f     
+            O hexadecimal de 15 é 000f  
+
+        numero = 15
+        print(f'O hexadecimal de {numero} é {numero:04x}')
+            O hexadecimal de 15 é 000f 
 
 # f - strings
     s - string
