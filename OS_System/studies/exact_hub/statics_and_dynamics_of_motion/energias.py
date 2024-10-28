@@ -41,6 +41,22 @@ while True:
         
         input(continuar)
 
+        print(f'''
+        m = 25g      
+        d = 115m
+        t = 0,4s
+
+            𝑑   115
+        v = ― = ――― = 287,5
+            𝑡   0,4
+
+        {energia_cinetica} = {meio}(0,025)(287,5){ao_quadrado} = 1033,2J    
+        
+        Resposta(s):
+        1) 1033 J''')
+
+        input(continuar)
+
         print('''
         Exercício 2
 
@@ -54,6 +70,14 @@ while True:
 
         input(continuar)
 
+        print(f'''
+        
+        
+        Resposta(s):
+        2) 3500 J; 3X menor; 4X maior; permanece o mesmo''')
+
+        input(continuar)
+
         print('''
         Exercício 3
 
@@ -62,6 +86,10 @@ while True:
         Qual é a força que foi aplicada
         ao corpo?
         ''') # exercicio 3
+
+        input(continuar)
+
+        print('Resposta(s):\n3) 0,675 N')
 
         input(continuar)
 
@@ -79,6 +107,10 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n4) 3 N; 6 J')
+
+        input(continuar)
+
         print(f'''
         Exercício 5
 
@@ -93,6 +125,10 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n5) 170 N; 342,25 m; 58.182,5 J')
+
+        input(continuar)
+
         print(f'''
         Exercício 6
 
@@ -104,6 +140,10 @@ while True:
         forças?
         b) A energia cinética do baú aumenta ou diminui?
         ''') # exercicio 6
+
+        input(continuar)
+
+        print('Resposta(s):\n6) 1,5 J')
 
         input(continuar)
 
@@ -130,17 +170,7 @@ while True:
 
         input(continuar)
 
-        print('''
-        Respostas
-
-        1) 1033 J
-        2) 3500 J; 3X menor; 4X maior; permanece o mesmo
-        3) 0,675 N
-        4) 3 N; 6 J
-        5) 170 N; 342,25 m; 58.182,5 J
-        6) 1,5 J
-        7) B
-        ''')
+        print('Resposta(s):\n7) B')
 
         opcao = input("Pressione 'Enter' para próxima lista ou digite '0' para voltar ao início: ")
             
@@ -171,6 +201,10 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n1) 11,9 kg')
+
+        input(continuar)
+
         print(f'''
         Exercício 2
 
@@ -178,6 +212,10 @@ while True:
         acerta uma vidraça. Sabendo que a vidraça se encontra a uma altura de 3,0 m do solo, qual o valor da 
         energia potencial da bola ao atingir a vidraça? Considere o valor da gravidade local igual a 9,8 m/s{ao_quadrado}.
         ''') # exercicio 2
+
+        input(continuar)
+
+        print('Resposta(s):\n2) 12 J')
 
         input(continuar)
 
@@ -190,6 +228,10 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n3) 36 kJ')
+
+        input(continuar)
+
         print(f'''
         Exercício 4
 
@@ -198,6 +240,10 @@ while True:
         Se, sob pânico, ela efetivamente suspendeu 4000N (cerca de {um_quarto} do peso do veículo) por 5cm, 
         quanto trabalho a sua força realizou sobre o carro?
         ''') # exercicio 4
+
+        input(continuar)
+
+        print('Resposta(s):\n4) 200 J')
 
         input(continuar)
 
@@ -213,6 +259,10 @@ while True:
         d) 2km
         e) 60 m
         ''') # exercicio 5
+
+        input(continuar)
+
+        print('Resposta(s):\n5) d')
 
         input(continuar)
 
@@ -234,6 +284,10 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n6) 98 N; 4 cm; 3,92 J; -3,92 J')
+
+        input(continuar)
+
         print('''
         Exercício 7
 
@@ -248,6 +302,10 @@ while True:
             iii. Pela força normal à superfície do plano?
             iv. Pela força resultante?
         ''') # exercicio 7
+
+        input(continuar)
+
+        print('Resposta(s):\n7) 267,5 N; -401,3 J; 401,3 J; 0 J; 0 J')
 
         input(continuar)
 
@@ -268,18 +326,7 @@ while True:
 
         input(continuar)
 
-        print('''
-        Respostas
-
-        1) 11,9 kg
-        2) 12 J
-        3) 36 kJ
-        4) 200 J
-        5) d
-        6) 98 N; 4 cm; 3,92 J; -3,92 J
-        7) 267,5 N; -401,3 J; 401,3 J; 0 J; 0 J
-        8) 166,6 J; 196 J; 29,4 J; 166,6 J; 129,4 J
-        ''')
+        print('Resposta(s):\n8) 166,6 J; 196 J; 29,4 J; 166,6 J; 129,4 J')
 
         opcao = input("Pressione 'Enter' para proxima lista ou digite '0' para voltar ao início: ")
         
@@ -313,12 +360,20 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n1) 1,8J; -1,8J; 30N')
+
+        input(continuar)
+
         print('''
         Exercício 2
 
         Calcule a energia potencial elástica armazenada em uma mola, cuja constante elástica é 100 N/m, que 
         está comprimida, apresentando uma deformação de 45 cm.
         ''') # exercicio 2
+
+        input(continuar)
+
+        print('Resposta(s):\n2) 10,125J')
 
         input(continuar)
 
@@ -336,6 +391,10 @@ while True:
 
         input(continuar)
 
+        print('Resposta(s):\n3) a')
+
+        input(continuar)
+
         print('''
         Exercício 4
 
@@ -346,6 +405,10 @@ while True:
         a) Qual a força que o gatilho está exercendo no sistema?
         b) Qual a capacidade de trabalho do sistema? 
         ''') # exercicio 4
+
+        input(continuar)
+
+        print('Resposta(s):\n4) 50N; 5J')
 
         input(continuar)
 
@@ -363,15 +426,7 @@ while True:
 
         input(continuar)
 
-        print('''
-        Respostas
-
-        1) 1,8J; -1,8J; 30N
-        2) 10,125J
-        3) a
-        4) 50N; 5J
-        5) 750 J
-        ''')
+        print('Resposta(s):\n5) 750 J')
     
     opcao = input("Pressione 'Enter' para voltar ao início ou digite qualquer coisa para sair: ")
         

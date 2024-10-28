@@ -11,9 +11,9 @@ altura_padrao = 'h' # em relação a um ponto de referência (em metros, m)
 #formula
 trabalho = 'T=F⋅d⋅cos(θ)'
 velocidade = '''
-  𝑑
-v=―
-  𝑡
+    𝑑
+v = ―
+    𝑡
 ''' # velocidade = distancia / tempo
 forca = 'F=m⋅a'
 
