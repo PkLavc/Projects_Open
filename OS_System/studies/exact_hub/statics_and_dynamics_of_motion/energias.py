@@ -80,11 +80,11 @@ while True:
                                                                                                                                                                                                                                                                                                                                                                                                                 
         {energia_cinetica} = {meio}(700)(10){ao_quadrado} = {(1/2)*700*(10**2):.2f} J
 
-        b) m = 700 kg / 3 = {700/3}
-        {energia_cinetica} = {meio}({700/3})(10){ao_quadrado} = {(1/2)*(700/3)*(10**2):.2f} J
+        b) m = 700 kg / 3 = {700/3:.2f} kg
+        {energia_cinetica} = {meio}({700/3:.2f})(10){ao_quadrado} = {(1/2)*(700/3)*(10**2):.2f} J
         Tres vezes menor
 
-        c) v = 10 * 2 = 20 m/s
+        c) v = 10 * 2 = {10*2} m/s
         {energia_cinetica} = {meio}(700)(20){ao_quadrado} = {(1/2)*700*(20**2):.2f} J
         Quatro vezes maior
 
