@@ -1,11 +1,29 @@
-# a = int(input('Insira um numero: '))
-# b = int(input('Insira outro numero: '))
-# print(f'A soma de {a} com {b} sera {a+b}')
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'resource')))
+from botton import *
+'''
+OS_System
+    ├──test_zone
+    |   └──teste.py
+    └──resource
+        └── botton.py                       
+'''
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'studies', 'exact_hub')))
+from bd import *
+'''
+OS_System\
+    ├── studies\
+    │   └── exact_hub
+    |       └──bd.py
+    ├──test_zone
+        └──test.py
+'''
+# ======================================================================================================
+input(continuar)
 
-# decimal = int(input('Insira o decima: '))
-# print(f'O decimal de {decimal} é {decimal:08x}')
-
-
-print('Fazendo um teste aleatoriamente de barras\n\
-sera q essa cosia funcionou?')
+print(f'''
+      
+   {energia_cinetica} = {meio}({700/3})(10){ao_quadrado} = {(1/2)*(700/3)*(10**2):.2f} J
+ ''')
 

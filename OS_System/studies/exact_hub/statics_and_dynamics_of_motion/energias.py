@@ -12,12 +12,12 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'resou
 from botton import *
 '''
 OS_System\
-├── studies\
-│   └── exact_hub
-|       └──statics_and_dynamics_of_motion
-|           └──energias.py
-└── resource\
-    └── botton.py
+    ├── studies\
+    │   └── exact_hub
+    |       └──statics_and_dynamics_of_motion
+    |           └──energias.py
+    └── resource\
+        └── botton.py
 '''
 
 # ===================================== Lista 3 - Energia Cinética ======================================
@@ -42,15 +42,15 @@ while True:
         input(continuar)
 
         print(f'''
-        m = 25g      
-        d = 115m
-        t = 0,4s
+        m = 25 g      
+        d = 115 m
+        t = 0,4 s
 
             𝑑   115
         v = ― = ――― = 287,5
             𝑡   0,4
 
-        {energia_cinetica} = {meio}(0,025)(287,5){ao_quadrado} = 1033,2J    
+        {energia_cinetica} = {meio}(0,025)(287,5){ao_quadrado} = {(1/2) * 0.025 * ((115/0.4)**2):.2f} J 
         
         Resposta(s):
         1) 1033 J''')
@@ -71,8 +71,25 @@ while True:
         input(continuar)
 
         print(f'''
-        
-        
+        a) {energia_cinetica}
+        m = 700 kg
+
+            36 km    1h    1m   1000m
+        v = ――――― = ――― = ――― = ――――― = {(36*1000)/(60*60)} m/s
+                h   60m   60s     1km
+                                                                                                                                                                                                                                                                                                                                                                                                                
+        {energia_cinetica} = {meio}(700)(10){ao_quadrado} = {(1/2)*700*(10**2):.2f} J
+
+        b) m = 700 kg / 3 = {700/3}
+        {energia_cinetica} = {meio}({700/3})(10){ao_quadrado} = {(1/2)*(700/3)*(10**2):.2f} J
+        Tres vezes menor
+
+        c) v = 10 * 2 = 20 m/s
+        {energia_cinetica} = {meio}(700)(20){ao_quadrado} = {(1/2)*700*(20**2):.2f} J
+        Quatro vezes maior
+
+        d) Permanece o mesmo
+
         Resposta(s):
         2) 3500 J; 3X menor; 4X maior; permanece o mesmo''')
 
