@@ -106,7 +106,19 @@ while True:
 
         input(continuar)
 
-        print('Resposta(s):\n3) 0,675 N')
+        print(f'''
+        m = 3 kg
+        d = 20 m
+        v = 3 m/s
+
+            Δt   v² - v₀²   {(3)**2:.2f} - 0
+        a = ―― = ―――――――― = ―――――――― = {(3**2)/(2*20):.2f}
+            Δv      2d       2 * 20      
+
+        {forca} = 3 * {(3**2)/(2*20):.2f} = {3 * (3**2)/(2*20):.2f}
+
+        Resposta(s):
+        3) 0,675 N''')
 
         input(continuar)
 
@@ -124,7 +136,20 @@ while True:
 
         input(continuar)
 
-        print('Resposta(s):\n4) 3 N; 6 J')
+        print(f'''
+        a) d = 2 m
+        T = 6 J
+
+        {trabalho}
+        6 = F * 2 * cos(θ)
+        F = 6/2 = {6/2} N
+
+        b) {trabalho}
+        T = 3 * 2 * cos(θ)
+        T = 3 * 2 = {3*2} J
+
+        Resposta(s):
+        4) 3 N; 6 J''')
 
         input(continuar)
 

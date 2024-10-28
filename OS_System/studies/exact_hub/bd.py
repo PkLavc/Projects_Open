@@ -9,18 +9,24 @@ constante_elastica_padrao = 'k' # newtons por metro, N/m
 altura_padrao = 'h' # em relação a um ponto de referência (em metros, m)
 
 #formula
-trabalho = 'T=F⋅d⋅cos(θ)'
+trabalho = 'T = F⋅d⋅cos(θ)'
 velocidade = '''
     𝑑
 v = ―
     𝑡
 ''' # velocidade = distancia / tempo
-forca = 'F=m⋅a'
+aceleracao = '''
+    Δt   v² - v₀²
+a = ―― = ――――――――
+    Δv      2d
+'''
+forca = 'F = m ⋅ a'
+mua = 'v² = v₀²+2ad' # movimento uniformemente acelerado
 
 # energias
-energia_cinetica = 'E=½mv²'
-energia_potencial_gravitacional = 'E=mgh'
-energia_potencial_elastica = 'E=½kx²' # x é a deformação da mola (em metros, m)
+energia_cinetica = 'E = ½mv²'
+energia_potencial_gravitacional = 'E = mgh'
+energia_potencial_elastica = 'E = ½kx²' # x é a deformação da mola (em metros, m)
 
 #caracter
 meio = '¹⁄₂'
@@ -44,3 +50,8 @@ seis_para_baixo = '₆'
 sete_para_baixo = '₇'
 oito_para_baixo = '₈'
 nove_para_baixo = '₉'
+
+mini_x = 'ₓ'
+velocidade_inicial = 'v₀'
+inicial = '𝑖'
+
