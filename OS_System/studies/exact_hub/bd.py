@@ -8,6 +8,19 @@ energia_trabalho_padrao = 'J' # joules
 constante_elastica_padrao = 'k' # newtons por metro, N/m
 altura_padrao = 'h' # em relação a um ponto de referência (em metros, m)
 
+# valores
+sen_30 = '0.5'
+cos_30 = '0.866'
+tan_30 = '0.577'
+
+sen_45 = '0.707'
+cos_45 = '0.707'
+tan_45 = '1.0'
+
+sen_60 = '0.866'
+cos_60 = '0.5'
+tan_60 = '1.732'
+
 #formula
 trabalho = 'T = F⋅d⋅cos(θ)'
 velocidade = '''

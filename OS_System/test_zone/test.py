@@ -25,24 +25,32 @@ while True:
 # ========================================== energias teste 1 =======================================
 
         print(f'''
-        Exercício 5
+        Exercício 6
 
-        Um trenó e seu ocupante, com massa total de 85 kg, descem uma encosta e atingem um trecho horizontal 
-        retilíneo com uma velocidade de 37 m/s. Se uma força desacelera o trenó até o repouso a uma taxa 
-        constante de 2,0 m/s{ao_quadrado}, determine:
-
-        a) o módulo F da força
-        b) a distância d que o trenó percorre até parar
-        c) o trabalho T realizado pela força sobre o trenó
-        ''') # exercicio 5
+        A figura mostra três forças aplicadas a um baú que se desloca 3 m para a esquerda em um piso sem atrito. 
+        Os módulos das forças são F{um_para_baixo} = 5 N, F{dois_para_baixo} = 9 N, e F{tres_para_baixo} = 3 N; o
+        ângulo indicado é θ = 60°. No deslocamento,                                               F2 
+                                                                                                ↗ θ 
+        a) qual é o trabalho total realizado sobre o baú pelas três                    F1 ←  █████ 
+        forças?                                                                                ↓
+        b) A energia cinética do baú aumenta ou diminui?                                       F3
+        ''') # exercicio 6
 
         print(f'''
-        m = 85 kg
-
-
-        
+                    F2 = 9 N
+        F1        ↗ θ = 60°
+        5 N ←  █████  
+                 ↓
+                F3 3 N
+            /|
+           / |             x           x
+         9/  |3  cos(60) = ― = {cos_60} = ― = {9 * 0.866}
+         /60 |             9           9
+        /____|             
+          x
+                      
         Resposta(s):
-        5) 170 N; 342,25 m; 58.182,5 J''')
+        6) 1,5 J''')
 
 # =========================================== energias teste 2 =======================================
         opcao = input("Pressione 'Enter' para próxima lista ou digite '0' para voltar ao início: ")

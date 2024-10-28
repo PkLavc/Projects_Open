@@ -167,7 +167,29 @@ while True:
 
         input(continuar)
 
-        print('Resposta(s):\n5) 170 N; 342,25 m; 58.182,5 J')
+        print(f'''
+        a) m = 85 kg
+        v = 37 m/s
+        a = -2 m/s{ao_quadrado}
+
+        {forca}
+        F = 85 * (-2) = {85*(-2)} N
+
+        b) {mua}
+        0{ao_quadrado} = 37{ao_quadrado} + 2 (-2)d
+        0 = {37**2} - 4d
+        4d = {37**2}
+            {37**2}
+        d = ―――― = {(37**2)/4} m/s
+             4
+
+        c) {trabalho}
+        T = F⋅d⋅cos(θ)
+        T = 170 * 342,25 * 1
+        T = {170 * 342.25 * 1} J
+
+        Resposta(s):
+        5) 170 N; 342,25 m; 58.182,5 J''')
 
         input(continuar)
 
@@ -176,11 +198,11 @@ while True:
 
         A figura mostra três forças aplicadas a um baú que se desloca 3 m para a esquerda em um piso sem atrito. 
         Os módulos das forças são F{um_para_baixo} = 5 N, F{dois_para_baixo} = 9 N, e F{tres_para_baixo} = 3 N; o
-        ângulo indicado é θ = 60°. No deslocamento,
-
-        a) qual é o trabalho total realizado sobre o baú pelas três
-        forças?
-        b) A energia cinética do baú aumenta ou diminui?
+        ângulo indicado é θ = 60°. No deslocamento,                                               F2 
+                                                                                                ↗ θ 
+        a) qual é o trabalho total realizado sobre o baú pelas três                    F1 ←  █████ 
+        forças?                                                                                ↓
+        b) A energia cinética do baú aumenta ou diminui?                                       F3
         ''') # exercicio 6
 
         input(continuar)
