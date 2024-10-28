@@ -41,7 +41,19 @@ while True:
         
         input(continuar)
 
-        print('Resposta(s):\n1) 1033 J')
+        print(f'''
+        m = 25g      
+        d = 115m
+        t = 0,4s
+
+            𝑑   115
+        v = ― = ――― = 287,5
+            𝑡   0,4
+
+        {energia_cinetica} = {meio}(0,025)(287,5){ao_quadrado} = 1033,2J    
+        
+        Resposta(s):
+        1) 1033 J''')
 
         input(continuar)
 
@@ -58,7 +70,11 @@ while True:
 
         input(continuar)
 
-        print('Resposta(s):\n2) 3500 J; 3X menor; 4X maior; permanece o mesmo')
+        print(f'''
+        
+        
+        Resposta(s):
+        2) 3500 J; 3X menor; 4X maior; permanece o mesmo''')
 
         input(continuar)
 
