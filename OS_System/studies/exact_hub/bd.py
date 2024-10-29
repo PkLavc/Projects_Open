@@ -34,6 +34,7 @@ a = ―― = ――――――――
     Δv      2d
 '''
 forca = 'F = m ⋅ a'
+forca_potencial = 'F = k ⋅ x'
 mua = 'v² = v₀²+2ad' # movimento uniformemente acelerado
 
 # energias
