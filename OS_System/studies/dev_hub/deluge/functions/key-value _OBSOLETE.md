@@ -1,0 +1,1 @@
+These functions will work, however there wont't be further enchancements. Its is strongly advised to use Collections functions instead.
