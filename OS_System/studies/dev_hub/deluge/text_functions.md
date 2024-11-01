@@ -34,7 +34,7 @@ info string.getAlphaNumeric(); // Retorna apenas os caracteres alfanuméricos: "
 // 8. getOccurenceCount
 string = "Hello, hello, Hello!"; // A string a ser verificada
 substring = "Hello"; // Substring a contar ocorrências
-info string.getOccurenceCount(substring); // Retorna 3, pois "Hello" aparece 3 vezes
+info string.getOccurenceCount(substring); // Retorna 2, pois "Hello" aparece 2 vezes
 
 // 9. getPrefix
 string = "Hello, world!"; // A string original
@@ -54,7 +54,7 @@ info string.indexOf(substring); // Retorna 7, que é a posição de "world" em "
 // 12. lastIndexOf
 string = "Hello, world! Hello again!"; // A string com múltiplas ocorrências
 substring = "Hello"; // Substring a ser localizada
-info string.lastIndexOf(substring); // Retorna 13, que é a posição da última ocorrência de "Hello"
+info string.lastIndexOf(substring); // Retorna 14, que é a posição da última ocorrência de "Hello"
 
 // 13. remove
 string = "Hello, world!"; // A string original
