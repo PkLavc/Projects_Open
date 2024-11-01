@@ -157,3 +157,20 @@ info string.rightPad(10); // Retorna "Hello     ", adicionando espaços à direi
 string = "Hello, world!"; // A string original
 substring = "hello"; // Substring a ser verificada (com letras minúsculas)
 info string.startsWithIgnoreCase(substring); // Retorna true, pois "Hello" começa com "hello", ignorando maiúsculas/minúsculas
+
+// 36. endsWithIgnoreCase
+string = "Hello, World!"; // A string original
+substring = "world!"; // Substring a ser verificada (com letras minúsculas)
+info string.endsWithIgnoreCase(substring); // Retorna true, pois "World!" termina com "world!", ignorando maiúsculas/minúsculas
+
+// 37. concat
+string1 = "Olá"; // Primeira parte da string
+string2 = " Mundo!"; // Segunda parte da string
+resultado = string1.concat(string2); // Concatena as duas strings
+info resultado; // Retorna "Olá Mundo!", que é a junção das duas strings
+
+// 38. equals
+string1 = "Teste"; // Primeira string
+string2 = "teste"; // Segunda string (com letra minúscula)
+resultado = string1.equals(string2); // Compara as duas strings
+info resultado; // Retorna false, pois "Teste" e "teste" não são iguais considerando maiúsculas/minúsculas
