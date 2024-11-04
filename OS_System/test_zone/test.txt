@@ -1,3 +1,0 @@
-Olá, teste de abrir arquivos
-
-    "editor.renderWhitespace": "all",
