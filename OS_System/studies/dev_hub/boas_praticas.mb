@@ -1,8 +1,0 @@
-CONSTANTE = "Variaveis" que nao vao mudar
-    - Fazendo uma variavel imutavel, fazer la com letras maiusculas
-        velocidade = 61 # velocidade atual do carro
-        RADAR = 60 # Velocidade maxima do radar
-
-if elif else = evitar muitas condicoes no mesmo 
-
-Blocos excessivos de codigo = Nao fazer muitos blocos dentro de blocos 
