@@ -9,3 +9,10 @@ seta_inclinada_direta_baixo = '↘'
 
 block = '█'
 block_2 ='▒'
+
+
+'''
+├──
+|
+└──
+'''
