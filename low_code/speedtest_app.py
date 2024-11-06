@@ -32,3 +32,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Iniciar via cmd com:
+# streamlit run speedtest.py
