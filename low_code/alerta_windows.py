@@ -2,6 +2,9 @@ import schedule
 import time
 from plyer import notification
 
+# Instalar as bibliotecas:
+# pip install schedule plyer
+
 def alert(title, message):
     notification.notify(
         title=title,
