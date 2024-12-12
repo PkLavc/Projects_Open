@@ -5,7 +5,11 @@
         ctrl c
             Copia as linhas por completo
         ctrl v
-            ^^^ Cola as linhas copiadas por completo   
+            ^^^ Cola as linhas copiadas por completo 
+        shift tab
+            Tira um tab da linha seleciona
+        F2
+            Mudar o nome em serie das variaveis
 # Conversion flags
     !r
         Substitui: __repr__ #Para ver a representação do objeto (útil para depuração).

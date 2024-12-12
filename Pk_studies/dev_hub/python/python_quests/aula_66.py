@@ -19,65 +19,64 @@ digitado = input()
 try:
     conversor = float(digitado)
 
-    while digitado != 's':
-            while digitado != 's':
-                indice += 1
-                if indice == 1:
-                    resultado = float(conversor)
+    while sair is False :
+            
+            indice += 1
+            if indice == 1:
+                resultado = float(conversor)
 
-                if indice_repeticao:
-                    digitado = input()
-                indice_repeticao = True
+            if indice_repeticao:
+                digitado = input()
+            indice_repeticao = True
 
-                if digitado == '+':
-                    digitado = input()
-                    try:
-                        conversor = float(digitado)
-                        resultado += conversor
-                    except:
-                        print(operando_incorreto)
-                        indice_repeticao = False
-                elif digitado == '-':
-                    digitado = input()
-                    try:
-                        conversor = float(digitado)
-                        resultado -= conversor
-                    except:
-                        print(operando_incorreto)
-                        indice_repeticao = False
-                elif digitado == '*':
-                    digitado = input()
-                    try:
-                        conversor = float(digitado)
-                        resultado *= conversor
-                    except:
-                        print(operando_incorreto)
-                        indice_repeticao = False
-                elif digitado == '/':
-                    digitado = input()
-                    try:
-                        conversor = float(digitado)
-                        resultado /= conversor
-                    except:
-                        print(operando_incorreto)
-                        indice_repeticao = False
-                elif digitado == '**':
-                    digitado = input()
-                    try:
-                        conversor = float(digitado)
-                        resultado **= conversor
-                    except:
-                        print(operando_incorreto)
-                        indice_repeticao = False
-                elif digitado == '=':
-                    print(resultado)
+            if digitado == '+':
+                digitado = input()
+                try:
+                    conversor = float(digitado)
+                    resultado += conversor
+                except:
+                    print(operando_incorreto)
+                    indice_repeticao = False
+            elif digitado == '-':
+                digitado = input()
+                try:
+                    conversor = float(digitado)
+                    resultado -= conversor
+                except:
+                    print(operando_incorreto)
+                    indice_repeticao = False
+            elif digitado == '*':
+                digitado = input()
+                try:
+                    conversor = float(digitado)
+                    resultado *= conversor
+                except:
+                    print(operando_incorreto)
+                    indice_repeticao = False
+            elif digitado == '/':
+                digitado = input()
+                try:
+                    conversor = float(digitado)
+                    resultado /= conversor
+                except:
+                    print(operando_incorreto)
+                    indice_repeticao = False
+            elif digitado == '**':
+                digitado = input()
+                try:
+                    conversor = float(digitado)
+                    resultado **= conversor
+                except:
+                    print(operando_incorreto)
+                    indice_repeticao = False
+            elif digitado == '=':
+                print(resultado)
+            else:
+                sair = digitado.lower().startswith('s')
+                if sair is True:
+                    break
                 else:
-                    digitado = digitado.lower()
-                    digitado = digitado.startswith()
-                    if digitado == 's':
-                        continue
-                    else:
-                        print(operador_incorreto)
+                    print(operador_incorreto)
 except:
     pass
 
