@@ -18,7 +18,6 @@ palavra_secreta = 'Miami'
 
 palavra_secreta_formatada = palavra_secreta.lower()
 letras_acertadas = ''
-palavra_formada = ''
 errou = 0
 
 while True:
@@ -46,5 +45,6 @@ while True:
     print(palavra_formada)
 
     if palavra_secreta_formatada == palavra_formada:
-        print(f'''Yeaaaah, voce encontrou a palavra correta
-Voce teve {errou} erros''')
+        print(f'Yeaaaah, voce encontrou a palavra correta\nVoce teve {errou} erros')
+        letras_acertadas = ''
+        errou = 0
