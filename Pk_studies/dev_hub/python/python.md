@@ -1,6 +1,6 @@
 # Comandos teclado
     Selecionar as linhas e;
-        ctrl / 
+        Ctrl / 
             Coloca # em todas 
         ctrl c
             Copia as linhas por completo
@@ -8,7 +8,7 @@
             ^^^ Cola as linhas copiadas por completo 
         shift tab
             Tira um tab da linha seleciona
-        F2
+        Ctrl F2
             Mudar o nome em serie das variaveis
 # Conversion flags
     !r
